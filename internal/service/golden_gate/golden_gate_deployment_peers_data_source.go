@@ -149,7 +149,7 @@ func (s *GoldenGateDeploymentPeersDataSourceCrud) GetWithContext(ctx context.Con
 	}
 
 	if state, ok := s.D.GetOkExists("state"); ok {
-		request.LifecycleState = oci_golden_gate.ListDeploymentPeersLifecycleStateEnum(state.(string))
+		request.LifecycleState = oci_golden_gate.DeploymentPeerSummaryLifecycleStateEnum(state.(string))
 	}
 
 	request.RequestMetadata.RetryPolicy = tfresource.GetRetryPolicy(false, "golden_gate")
