@@ -1,3 +1,19 @@
+## 8.11.0 (April 22, 2026)
+
+### Added
+- Support reserved private IPs for Compute GPU memory clusters
+- Context aware vaiant of function WaitForWorkRequest
+- Support for GGS Release 10 Connections
+- context propagation for subset of resources in database service.
+- Support for Ability to change data reco sparse percentage - ExaDB-D and ExaDB-C@C
+- Support for Functions Logging Enhancements
+- Enable dual-stack endpoints for Events client
+- Support for USAGE_ONLY queryType in usage-api
+- Support for Implement CLI/SDK changes as part of ipv6 GA (API ONLY)
+
+### Bug Fix
+- Fixing build errors
+
 ## 8.10.0 (April 15, 2026)
 
 ### Added
