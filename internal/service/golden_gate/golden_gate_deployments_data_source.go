@@ -128,7 +128,7 @@ func (s *GoldenGateDeploymentsDataSourceCrud) GetWithContext(ctx context.Context
 	}
 
 	if state, ok := s.D.GetOkExists("state"); ok {
-		request.LifecycleState = oci_golden_gate.ListDeploymentsLifecycleStateEnum(state.(string))
+		request.LifecycleState = oci_golden_gate.DeploymentLifecycleStateEnum(state.(string))
 	}
 
 	if supportedConnectionType, ok := s.D.GetOkExists("supported_connection_type"); ok {
